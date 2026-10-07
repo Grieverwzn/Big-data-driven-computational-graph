@@ -1,0 +1,64 @@
+{
+ "S": 5,
+ "seed": 43,
+ "od_weighted": true,
+ "loss_weights_w1_w2_w3_w4": [
+  1.0,
+  5.0,
+  0.01,
+  0.0
+ ],
+ "adam_lr_betas": [
+  0.001,
+  [
+   0.9,
+   0.999
+  ]
+ ],
+ "lr_schedule": "cosine to 10%",
+ "iterations": 1000,
+ "batch_size": 64,
+ "threads": 8,
+ "seconds": 247.87827396392822,
+ "error_table": {
+  "RMSE": {
+   "With sensors": 38.209999084472656,
+   "Without sensors": 61.599998474121094,
+   "Link flow total error": 42.040000915527344,
+   "OD demand": 15.180000305175781
+  },
+  "MAE": {
+   "With sensors": 29.760000228881836,
+   "Without sensors": 48.650001525878906,
+   "Link flow total error": 32.25,
+   "OD demand": 11.15999984741211
+  },
+  "MAPE": {
+   "With sensors": 0.018699999898672104,
+   "Without sensors": 0.036400001496076584,
+   "Link flow total error": 0.020999999716877937,
+   "OD demand": 0.038100000470876694
+  }
+ },
+ "train_sensor_MAPE": 0.01720176450908184,
+ "theta_abs_median_all": 0.10635163635015488,
+ "theta_abs_median_by_template": [
+  0.09633117914199829,
+  0.10431855171918869,
+  0.10872761905193329,
+  0.1306801438331604,
+  0.1014568880200386
+ ],
+ "theta_fused_median": 0.167649507522583,
+ "theta_fused_q10_q90": [
+  0.009982628747820854,
+  0.2823975086212158
+ ],
+ "attention_mean_by_template": [
+  0.001688048243522644,
+  0.25766676664352417,
+  0.3038392663002014,
+  0.3822292387485504,
+  0.05457666516304016
+ ]
+}

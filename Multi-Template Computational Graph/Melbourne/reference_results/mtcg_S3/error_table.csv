@@ -1,0 +1,5 @@
+,RMSE,MAE,MAPE
+With sensors,16.4,7.4,0.057
+Without sensors,16.36,7.78,0.0704
+Total error,16.39,7.44,0.0584
+OD demand,0.23,0.05,0.0782

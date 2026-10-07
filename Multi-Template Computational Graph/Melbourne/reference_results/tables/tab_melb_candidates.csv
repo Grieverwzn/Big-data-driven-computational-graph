@@ -1,0 +1,11 @@
+﻿Candidate,Name in the code,Context,theta-distance alone (%)
+T1,T1,Regular day,5.31
+T2,T2,Stadium event,7.24
+T3,T3,POI event,7.84
+T4,lvl080,Regular-day demand x0.8,9.07
+T5,lvl120,Regular-day demand x1.2,9.51
+T6,stad2x,Stadium event of double size,9.54
+T7,stad_early,Stadium event one hour earlier,9.23
+T8,poi_late,POI event two hours later,8.21
+T9,other_event,Event at two other zones,7.5
+T10,both,Stadium and POI events on the same day,8.68

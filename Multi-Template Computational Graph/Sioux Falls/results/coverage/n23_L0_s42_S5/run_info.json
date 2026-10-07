@@ -1,0 +1,91 @@
+{
+ "S": 5,
+ "seed": 42,
+ "od_weighted": false,
+ "loss_weights_w1_w2_w3_w4": [
+  1.0,
+  0.8,
+  0.01,
+  0.0
+ ],
+ "adam_lr_betas": [
+  0.001,
+  [
+   0.9,
+   0.999
+  ]
+ ],
+ "lr_schedule": "constant",
+ "iterations": 1000,
+ "batch_size": 64,
+ "threads": null,
+ "seconds": 275.0477523803711,
+ "error_table": {
+  "RMSE": {
+   "With sensors": 149.39999389648438,
+   "Without sensors": 177.44000244140625,
+   "Link flow total error": 169.4499969482422,
+   "OD demand": 72.80000305175781
+  },
+  "MAE": {
+   "With sensors": 89.91000366210938,
+   "Without sensors": 131.82000732421875,
+   "Link flow total error": 119.12999725341797,
+   "OD demand": 46.16999816894531
+  },
+  "MAPE": {
+   "With sensors": 0.052000001072883606,
+   "Without sensors": 0.08150000125169754,
+   "Link flow total error": 0.07249999791383743,
+   "OD demand": 0.14959999918937683
+  }
+ },
+ "train_sensor_MAPE": 0.050260454416275024,
+ "theta_abs_median_all": 0.09764178097248077,
+ "theta_abs_median_by_template": [
+  0.0904180184006691,
+  0.11525176465511322,
+  0.07754021883010864,
+  0.10981293022632599,
+  0.09157772362232208
+ ],
+ "theta_fused_median": 0.12113761901855469,
+ "theta_fused_q10_q90": [
+  0.020037084817886353,
+  0.22737817466259003
+ ],
+ "attention_mean_by_template": [
+  0.2583011984825134,
+  0.2387671321630478,
+  0.12050621211528778,
+  0.2377205193042755,
+  0.14470496773719788
+ ],
+ "layout": "n23_L0",
+ "observed_links": [
+  3,
+  4,
+  8,
+  9,
+  11,
+  19,
+  20,
+  21,
+  22,
+  23,
+  28,
+  29,
+  32,
+  40,
+  45,
+  50,
+  53,
+  57,
+  58,
+  62,
+  68,
+  73,
+  75
+ ],
+ "note": "paper run (original experiment folder), made with the same model code as 3-mtcg.py; only the files needed for the tables/figures are kept"
+}

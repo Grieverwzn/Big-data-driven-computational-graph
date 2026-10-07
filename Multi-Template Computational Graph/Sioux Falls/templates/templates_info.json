@@ -1,0 +1,104 @@
+{
+ "S=2": {
+  "samples per group": [
+   400
+  ],
+  "share of OD pairs with the template-1 route set, templates 2..S": [
+   0.406
+  ],
+  "true day types 1/2/3 per group (diagnostic, not used)": [
+   [
+    135,
+    133,
+    132
+   ]
+  ]
+ },
+ "S=3": {
+  "samples per group": [
+   268,
+   132
+  ],
+  "share of OD pairs with the template-1 route set, templates 2..S": [
+   0.354,
+   0.375
+  ],
+  "true day types 1/2/3 per group (diagnostic, not used)": [
+   [
+    135,
+    133,
+    0
+   ],
+   [
+    0,
+    0,
+    132
+   ]
+  ]
+ },
+ "S=4": {
+  "samples per group": [
+   135,
+   133,
+   132
+  ],
+  "share of OD pairs with the template-1 route set, templates 2..S": [
+   0.365,
+   0.344,
+   0.375
+  ],
+  "true day types 1/2/3 per group (diagnostic, not used)": [
+   [
+    135,
+    0,
+    0
+   ],
+   [
+    0,
+    133,
+    0
+   ],
+   [
+    0,
+    0,
+    132
+   ]
+  ]
+ },
+ "S=5": {
+  "samples per group": [
+   135,
+   54,
+   132,
+   79
+  ],
+  "share of OD pairs with the template-1 route set, templates 2..S": [
+   0.365,
+   0.333,
+   0.375,
+   0.344
+  ],
+  "true day types 1/2/3 per group (diagnostic, not used)": [
+   [
+    135,
+    0,
+    0
+   ],
+   [
+    0,
+    54,
+    0
+   ],
+   [
+    0,
+    0,
+    132
+   ],
+   [
+    0,
+    79,
+    0
+   ]
+  ]
+ }
+}

@@ -1,0 +1,132 @@
+{
+ "S": 4,
+ "seed": 42,
+ "od_weighted": false,
+ "loss_weights_w1_w2_w3_w4": [
+  1.0,
+  0.8,
+  0.01,
+  0.0
+ ],
+ "adam_lr_betas": [
+  0.001,
+  [
+   0.9,
+   0.999
+  ]
+ ],
+ "lr_schedule": "constant",
+ "iterations": 1000,
+ "batch_size": 64,
+ "threads": null,
+ "seconds": 416.7125127315521,
+ "error_table": {
+  "RMSE": {
+   "With sensors": 38.0099983215332,
+   "Without sensors": 60.43000030517578,
+   "Link flow total error": 41.65999984741211,
+   "OD demand": 16.219999313354492
+  },
+  "MAE": {
+   "With sensors": 29.489999771118164,
+   "Without sensors": 46.90999984741211,
+   "Link flow total error": 31.780000686645508,
+   "OD demand": 11.779999732971191
+  },
+  "MAPE": {
+   "With sensors": 0.018300000578165054,
+   "Without sensors": 0.034699998795986176,
+   "Link flow total error": 0.020500000566244125,
+   "OD demand": 0.040300000458955765
+  }
+ },
+ "train_sensor_MAPE": 0.015663597732782364,
+ "theta_abs_median_all": 0.11583493649959564,
+ "theta_abs_median_by_template": [
+  0.10426594316959381,
+  0.1152767539024353,
+  0.10641258209943771,
+  0.15182901918888092
+ ],
+ "theta_fused_median": 0.16548365354537964,
+ "theta_fused_q10_q90": [
+  0.008174813352525234,
+  0.2969099283218384
+ ],
+ "attention_mean_by_template": [
+  0.010099714621901512,
+  0.29731208086013794,
+  0.12069536745548248,
+  0.5718929171562195
+ ],
+ "layout": "paper Fig. 13",
+ "observed_links": [
+  1,
+  2,
+  3,
+  5,
+  6,
+  8,
+  9,
+  10,
+  11,
+  12,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  22,
+  23,
+  24,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  38,
+  39,
+  40,
+  42,
+  43,
+  44,
+  45,
+  46,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  62,
+  63,
+  64,
+  65,
+  66,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76
+ ],
+ "note": "paper run (original experiment folder), made with the same model code as 3-mtcg.py; only the files needed for the tables/figures are kept"
+}

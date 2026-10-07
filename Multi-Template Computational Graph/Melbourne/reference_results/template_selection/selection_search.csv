@@ -1,0 +1,13 @@
+theta,theta_label,method,start,steps,result,mean_distance_%
+0.18829166666666666,0.25 x wage,greedy from T1,T1,"+T2 5.36%, +T3 5.34%",T1+T2+T3,5.335886927775224
+0.18829166666666666,0.25 x wage,swaps,T1+T2+T3,none,T1+T2+T3,5.335886927775224
+0.18829166666666666,0.25 x wage,swaps,lvl120+stad_early+poi_late,lvl120 -> T1 (5.38%); stad_early -> T2 (5.34%); poi_late -> T3 (5.34%),T1+T2+T3,5.335886927775224
+0.18829166666666666,0.25 x wage,swaps,lvl080+other_event+stad2x,lvl080 -> T1 (5.41%); other_event -> T2 (5.35%); stad2x -> T3 (5.34%),T1+T2+T3,5.335886927775224
+0.3765833333333333,0.5 x wage,greedy from T1,T1,"+T2 5.17%, +T3 5.15%",T1+T2+T3,5.152201668737962
+0.3765833333333333,0.5 x wage,swaps,T1+T2+T3,none,T1+T2+T3,5.152201668737962
+0.3765833333333333,0.5 x wage,swaps,lvl120+stad_early+poi_late,lvl120 -> T1 (5.19%); stad_early -> T2 (5.16%); poi_late -> T3 (5.15%),T1+T2+T3,5.152201668737962
+0.3765833333333333,0.5 x wage,swaps,lvl080+other_event+stad2x,lvl080 -> T1 (5.23%); other_event -> T2 (5.16%); stad2x -> T3 (5.15%),T1+T2+T3,5.152201668737962
+0.7531666666666667,1 x wage,greedy from T1,T1,"+lvl080 6.08%, +stad_early 5.97%",T1+lvl080+stad_early,5.966294945520629
+0.7531666666666667,1 x wage,swaps,T1+lvl080+stad_early,none,T1+lvl080+stad_early,5.966294945520629
+0.7531666666666667,1 x wage,swaps,lvl120+stad_early+poi_late,poi_late -> T1 (6.24%); lvl120 -> lvl080 (5.97%),T1+lvl080+stad_early,5.966294945520629
+0.7531666666666667,1 x wage,swaps,lvl080+other_event+stad2x,other_event -> T1 (5.99%); stad2x -> stad_early (5.97%),T1+lvl080+stad_early,5.966294945520629

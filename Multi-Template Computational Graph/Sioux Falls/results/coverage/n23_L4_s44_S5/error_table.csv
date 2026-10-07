@@ -1,0 +1,5 @@
+,RMSE,MAE,MAPE
+With sensors,34.36,25.97,0.0147
+Without sensors,121.1,93.06,0.0606
+Link flow total error,102.88,72.75,0.0467
+OD demand,26.91,21.17,0.0711

@@ -1,0 +1,89 @@
+{
+ "samples per type: all / training / test": [
+  [
+   169,
+   164,
+   167
+  ],
+  [
+   135,
+   133,
+   132
+  ],
+  [
+   34,
+   31,
+   35
+  ]
+ ],
+ "demand cells raised to the floor (of 576,000)": 0,
+ "designed mean demand qbar (veh/h), 7:00-8:45": [
+  249.6,
+  267.6,
+  285.6,
+  303.6,
+  321.6,
+  339.6,
+  330.6,
+  312.6
+ ],
+ "generated mean demand (veh/h), 7:00-8:45": [
+  251.9,
+  267.6,
+  285.6,
+  303.6,
+  321.6,
+  336.2,
+  329.5,
+  312.6
+ ],
+ "demand CV over samples: min / mean / median / max": [
+  0.077,
+  0.154,
+  0.145,
+  0.352
+ ],
+ "v/c mean, by step": [
+  0.85,
+  [
+   0.72,
+   0.76,
+   0.81,
+   0.86,
+   0.91,
+   0.95,
+   0.93,
+   0.88
+  ]
+ ],
+ "v/c max": 1.61,
+ "travel time / free flow: mean, by step": [
+  1.135,
+  [
+   1.07,
+   1.08,
+   1.11,
+   1.13,
+   1.17,
+   1.19,
+   1.18,
+   1.15
+  ]
+ ],
+ "lowest flow / link mean (min over links)": 0.62,
+ "link-step changes > 30% of link mean": 0,
+ "share of OD pairs whose type route set = free-flow set, by type": [
+  0.333,
+  0.323,
+  0.271
+ ],
+ "stacked centred SVD (training samples, 66 sensor links): N_sigma": 3,
+ "  sigma_k^2 / sigma_k+1^2, k = 1..6": [
+  1.12,
+  1.62,
+  5.51,
+  1.28,
+  1.19,
+  1.13
+ ]
+}
